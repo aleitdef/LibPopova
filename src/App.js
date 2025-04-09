@@ -1,10 +1,14 @@
-import './App.css';
+import Baner from "./Components/Baner/Baner";
+
 
 function App() {
   return (
-    <div >
-      Дада
-    </div>
+    <>
+      <Baner/>
+      <div>Блок меню</div>
+      <div>Станицы</div>
+      <div>Подвал</div>
+    </>
   );
 }
 
