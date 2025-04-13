@@ -1,10 +1,10 @@
-import Baner from "./Components/Baner/Baner";
-
+import Banner from "./Components/Banner/Banner";
+import "./App.css";
 
 function App() {
   return (
     <>
-      <Baner/>
+      <Banner width={"100%"} autoPlay={true} autoPlayTime={20000}/>
       <div>Блок меню</div>
       <div>Станицы</div>
       <div>Подвал</div>

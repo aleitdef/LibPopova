@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "VoronovFont";
+    src: url(./fonts/ofont.ru_VoronovFont.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "K-Lib";
+    src: url(./fonts/K-Lib-Regular.otf) format("truetype");
+  }
+
+  :root {
+    --accent-color: #A01F3E;
+  }
+  
+  html {
+    font-size: 14px;
+  }
+  
+  body {
+    color: #000;
+    font-family: "Open Sans", serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
