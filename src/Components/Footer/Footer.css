@@ -1,0 +1,45 @@
+.footer {
+  width: 100%;
+  background: #8b1b36;
+  display: flex;
+  justify-content: center;
+}
+.footer-img {
+  width: 224px;
+  height: 306.36px;
+  flex-shrink: 0;
+  margin: 30px;
+}
+
+.footer-text {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.footer-title {
+  color: #fff;
+  font-family: "Neue Machina";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.9px;
+  margin-bottom: 25px;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.footer-menu-title {
+  color: #fff;
+  font-family: "Neue Machina";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
